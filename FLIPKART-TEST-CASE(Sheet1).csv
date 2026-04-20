@@ -1,0 +1,1106 @@
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+TESTER NAME : SOUMYARANJAN SAHOO,,,,,,,,,,,
+TEST CASE DOCUMENT,,,,,,,,,,,
+PROJECT NAME   :  FLIPKART ,,,,,,,,,,,
+PROJECT ID  :  14504,,,,,,,,,,,
+TEST SCENARIO ID,MODULE,TEST CASE ID ,TEST CASE,TEST PARAMETER,PRE-CONDITION,DESCRIPTION,POST CONDITION,STEPS TO EXECUTE,EXPECTED RESULT,ACTUAL RESULT,"STATUS
+PASS / FAIL"
+USER PORTAL,,,,,,,,,,,
+,,,,,,,,,,,
+TS_01,Website link,TC_01,Valid URL,https://www.flipkart.com/,Access to the website URL,Verify that the URL is launched by entering an valid link in the internet,System navigates to the home page,"1. Open the web browser
+2. Locate the valid URL
+3. Click search/Enter button",User should be navigate to the home page,,
+,,TC_02,Invalid URL,https://www.flipkart.com/,Access to the website URL,Verify that the URL is launched by entering an invalid link in the internet,Not Applicable,"1. Open the web browser
+2. Locate the invalid URL
+3. Click search/Enter button",User should not be navigate to the home page,,
+TS_02,Home - viewing all products,TC_03,Collection,NA,Access to the website URL,Verify collection of products is displayed in the home page,Not Applicable,"1. Locate the valid URL
+2. It navigates to home page
+3. Scroll down to view the collection of products",User should be able to view the latest collections.,,
+,,TC_04,Category,NA,Access to the website URL,Verify category of products is displaying in the home page,Not Applicable,"1. Locate the valid URL
+2. It navigates to home page
+3. Scroll down for view the category of products",User should be able to view the category of products,,
+,,TC_05,Various collections,NA,Access to the website URL,Check various collections are displaying in the home page and able to click the particular collection,Not Applicable,"1. Locate the valid URL
+2. It navigates to home page
+3. Scroll down for view the various collections",User should be able to view the various collections,,
+TS_03,Home - add to cart,TC_06,Add to cart,NA,Access to the website URL,Check whether add to cart icon is displaying for each product in home page,Not Applicable,"1. Locate the valid URL
+2. It navigates to home page
+3. scroll down and view the products 
+4. On moving the cursor to the particular product, it should display the add to cart icon",User should be able to view the add to cart icon,,
+,,TC_07,Add to cart - enabled.,NA,Access to the website URL,"Verify on moving the cursor to the each product,able to click the add to cart icon button to add the product in cart",System navigates to the add to cart page,"1. Locate the valid URL
+2. It navigates to home page
+3. scroll down and view the products 
+4. On moving the cursor to the each product in the home page, it should display the add to cart icon
+5. On clicking add to cart button, product should added in the cart",User should be able to click the add to cart icon button and respective product should be added to the cart,,
+TS_04,Home - wishlist,TC_08,Wish list,NA,Access to the website URL,Check whether wish list icon is displaying for each product in home page,Not Applicable,"1. Locate the valid URL
+2. It navigates to home page
+3. scroll down and view the products 
+4. On moving the cursor to the particular product, it should display the wish list icon",User should be able to view the wish list icon,,
+,,TC_09,Wish list - enabled,NA,Access to the website URL,"Verify on moving the cursor to the each product,able to click the wish list icon button to add the product in cart",System should navigates to the wishlist page,"1. Locate the valid URL
+2. It navigates to home page
+3. scroll down and view the products 
+4. On moving the cursor to the each product in the home page, it should display the wish list icon
+5. On clicking wish list icon button, product should added in the wishlist",User should be able to click the wishlist icon button and respective product should be added to the wishlist,,
+TS_05,Home - search,TC_10,Search button - enabled,NA,Access to the website URL,"verify on clicking search button,it can be able to navigate to the search text box",Not Applicable,"1. Locate the valid URL 
+2. It navigates to home page
+3. Identify the search button
+4. Click the search button",Search button should be clickable,,
+,,TC_11,Search text box,Search : watch,Access to the website URL,Check whether it shows the related products according to given,Not Applicable,"1. Locate the valid URL 
+2. It navigates to home page
+3. Identify the search button
+4. Click the search button 5 .Shows the related products",It should show the related products according to the given,,
+,,TC_12,Search results,Search : T-Shirt,Access to the website URL,Check whether it shows the same products we have given in the search box,Not Applicable,"1. Locate the valid URL 
+2. It navigates to the home page 
+3. Type the product keyword 
+4. Click the search button",Search products should be displayed,,
+,,TC_13,Matches keyword,NA,Access to the website URL,Checks whether it is suggesting words that matches the typed keyword,Not Applicable,"1.Locate the valid URL
+.2. It navigates to the homepage.
+3.type the needed product keyword. 
+4. suggestions is displayed down before clicking the search button",Search suggestions should be displayed,,
+TS_06,Home - contact,TC_14,Contact information,NA,Access to the website URL,Check whether it is displaying the contact information homepage,Not Applicable,"1.Locate the valid URL 
+2. It navigates to the homepage 
+3. contact information is displayed in the homepage",contact information should be displayed,,
+TS_07,Home - logo,TC_15,Logo,NA,Access to the website URL,Check whether the Logo is visible in the top left of the home page,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Logo is visible top left in the homepage",Logo should be visible in the homepage,,
+TS_08,Login,TC_16,Verify tab functionality,NA,Access to the website URL,Check tab functionality (move the cursor one text box to other text boxes) is working or not,System naviagates to the next text box,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Login button
+4. Click tab button",System should be able to move to next field,,
+,,TC_17,Length of text box,Length : 100,Access to the website URL,Check for the text boxes minimum and maximum length is defined or not.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on login button
+4. Accepting the character in text box",System should be able to check the lenth of character are defined,,
+,,TC_18,Password - masked,Password : *******,Access to the website URL,Check Password field values are displaying in masked format or not and verify eye symbol is closed to the user,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.",System should check password is masked,,
+,,TC_19,Password - unmasked,Password : ramadevi,Access to the website URL,To verify the eye symbol is opened for displaying the unmasked password to the user,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Logo is visible top left in the homepage",System should check password is unmasked,,
+,,TC_20,Valid login,NA,Access to the website URL,Check the valid credential for existing user should be able to log in,System navigates to home page,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Logo is visible top left in the homepage",System should be able to login,,
+TS_09,,TC_21,Invalid login,"U.N : gugan23
+pwd : gugan123",Access to the website URL,Check existing users should not able to login with valid user names and invalid passwords,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Logo is visible top left in the homepage",System should not be able to login,,
+,,TC_22,,"U.N : gugan23
+pwd : gugan124",Access to the website URL,Check existing user should not be able to login with invalid user name and valid password.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Logo is visible top left in the homepage",System should not be able to login,,
+,,TC_23,,"
+Pwd : gugan56",Access to the website URL,Check existing user should not be able to login with blank user field and valid password.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Logo is visible top left in the homepage",System should not be able to login,,
+,,TC_24,,"U.N : gugan
+",Access to the website URL,Check existing user should not be able to login with a valid user and blank password field,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Logo is visible top left in the homepage",System should not be able to login,,
+,,TC_25,,U.N : @$^#,Access to the website URL,To verify only symbols can not accept as a username or email id,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Logo is visible top left in the homepage",System should not be able to login,,
+,,TC_26,,U.N : 1235894,Access to the website URL,To verify only numerical can not accept as a username or email id,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Logo is visible top left in the homepage",System should not be able to login,,
+TS_10,,TC_27,Lost your password,NA,Access to the website URL,Check existing user is redirected to the forget password page after clicking on the forget password link.,System navigates to the forget password page,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Logo is visible top left in the homepage",System should navigate to forgot password page and able to enter the values in field,,
+,,TC_28,Remember me,NA,Access to the website URL,Select “Remember me” option to retain the login session,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Logo is visible top left in the homepage",System should be able to select the check box ,,
+,,TC_29,Change password,Password : Gugan@123,Access to the website URL,Verify if the link to change the password is sent to the user's email id,Not Applicable,"1.Locate the valid URL 
+2. It navigates to the homepage 
+3. login optin is shown 
+4. Lost your password button is shown and it is clicked 
+5 . It navigates to the my account page 
+6. Link to change the password is sent to the user's email id",Link to change the password should be sent to the user's email id,,
+,,TC_30,Login button - enabled,NA,Access to the website URL,Check whether the login button is enabled,Not Applicable,"1.Locate the URL 
+2. It navigates to the homepage 
+3.Login button is visible",Login button should be enabled in the homepage,,
+TS_11,Register,TC_31,Register button - enabled,NA,Access to the website URL,"Verify register button is enabled and on clicking register tab, display the registration form to fill by the user",System navigates to the registration page,"1. Locate the URL
+2. It navigates to trhe home page
+3. Click the Register tab",Register tab should be enabled and registration form should be display,,
+,,TC_32,Tab functionality,NA,Access to the website URL,Check tab functionality (move the cursor one text box to other text boxes) is working or not,System navigates to the next text box,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Register button
+4. Click tab button",Cursor should be move to the next field or textbox,,
+,,TC_33,Valid credentials,Name : gugan,Access to the website URL,"Check whether the system accepts only characters in the user name,first name and last name an display the entered string",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Register button
+4. Click on the username,first name and last name and enter the valid inputs",Text box should accepts only string,,
+,,TC_34,Invalid credentials,Name : GUGAN123,Access to the website URL,"Check whether the system prompts other than alphabet in the user name,first name and last name and display the entered credentials",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Register button
+4. Click on the username,first name and last name and enter the invalid inputs",System should prompts other than string,,
+,,TC_35,Mandatory fields,NA,Access to the website URL,Verify that the required/mandatory fields are marked with * against the field.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Register button
+4. display the mandatory fileds wherever possible",System should display the mandatory fileds with *,,
+,,TC_36,Mandatory fields - empty,NA,Access to the website URL,Check that mandatory fields are not filled and clicking the submit button will lead to a validation error.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Register button
+4. If user not entered any details in mandatory fields, error message will display",System should display an validation error message,,
+,,TC_37,Non mandatory fields - blank data,NA,Access to the website URL,Verify that not filling the optional fields and clicking the submit button will still send data to the server without any validation error,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Register button
+4. If user not entered any details in non mandatory fields, the data will be stores in the server",System should not display error message for non mandatory fields,,
+,,TC_38,Mandatory field - blank spaces,NA,Access to the website URL,Verify that entering blank spaces on mandatory fields leads to the validation error.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Register button
+4. If user has given blank space in mandatory fields, system prompts an error message",System should display error message for mandatory fields,,
+,,TC_39,Contact info,email id : gugan.qlik123@gmail.com,Access to the website URL,Check whether contact info accepts aphanumeric characters,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Register button
+4. Enter the alphanumeric in the contact info",System should accepts the alphanmeric and special characters,,
+,,TC_40,Password field,pwd : gugan@123,Access to the website URL,"Verify that the password accepts the alphabets,numbers and special characters",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Register button
+4. Enter the alphabets,strings,numbers and special characters in the password",System should acepts the combination of aphanumeric characters,,
+,,TC_41,Password field - blank space,NA,Access to the website URL,Verify that the system prompts an error for blank space in the password,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Register button
+4. Enter the blank space in the password field",System should display an error,,
+,,TC_42,Confirm password,gugan@123,Access to the website URL,Verify that the confirm password should be same as the previous password,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Register button
+4. Enter the alphabets,strings,numbers and special characters in the password
+5. Enter confirm password as same as previous password",System should accepts the confirm password is same as previous password,,
+,,TC_43,Update details,NA,Access to the website URL,"Verify on selecting the checkbox of ""send these credentials via email"" will send updated details to the registered email id",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Register button
+4. Select the checkbox of ""send these credentials via email""
+5. Click register button",System should send the email to the registered mail id,,
+TS_12,Shop,TC_44,View products,NA,Access to the website URL,"Verify that on clicking the shop button, it should display all available products",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on shop button
+",System should display display all the available products,,
+,,TC_45,List the sorting,NA,Access to the website URL,"Verify that the dropdown lists the sort by popularity,average rating,latest,price:low to high and high to low",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on shop button
+4. click on default sorting",System should display the dropdown list,,
+,,TC_46,Zoom button - enabled,NA,Access to the website URL,Verify that the zoom-in button is able to larger the size of an image,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on shop button
+4. click on zoom in button for respective product",System should display the image larger in size,,
+,,TC_47,Add to cart button - enabled,NA,Access to the website URL,Verify that the add to cart button is able to click it and navigates to add to cart page,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on shop button
+4. click on add to cart button for respective product",System should display the added product in the add to cart page,,
+TS_13,Collections,TC_48,Collection button - enabled,NA,Access to the website URL,"Verify that on clicking the collection button, it should be navigate to the respective page",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on collection button",System should naviage to the respective collection page,,
+TS_14,,TC_49,View all button,NA,Access to the website URL,"Verify that on clicking view all button in the respective collection, it should display all the available products in the particular collection",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on collection button
+4. Click on view all button",System should display products for particular collections,,
+,,TC_50,Zoom-in button - enabled,NA,Access to the website URL,Verify that the zoom-in button is able to larger the size of an image,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on collection button
+4. click on zoom in button for respective product",System should display the image larger in size,,
+,,TC_51,Add to cart button - enabled,NA,Access to the website URL,Verify that the add to cart button is able to click it and navigates to add to cart page,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on collection button
+4. click on add to cart button for respective product",System should display the added product in the add to cart page,,
+,,TC_52,Add to wishlist button - enbaled,NA,Access to the website URL,Verify that the wishlist button is able to click and navigates to wishlist page,System navigates to the wishlist page,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on collection button
+4. click on wishlist button for respective product",System should display the added product in the wishlist page,,
+,,TC_53,Review,NA,Access to the website URL,Verify that the user can able to give the review for the paricular product,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on collection button
+4. click on review button",System should display the given review,,
+,,TC_54,Ratings,NA,NA,Verify that user Should be able to give the ratings for the particular product,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on collection button
+4. click on rating button",,,
+,,TC_55,Mandatory fields,NA,Access to the website URL,Verify that the required/mandatory fields are marked with * against the field.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on collection button
+4. Display the mandatory fileds wherever possible",System should display the mandatory fileds with *,,
+,,TC_56,Mandatory fields - empty,NA,Access to the website URL,Check that mandatory fields are not filled and clicking the submit button will lead to a validation error.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Collection button
+4. If user not entered any details in mandatory fields, error message will display",System should display an validation error message,,
+,,TC_57,Non mandatory fields - blank data,NA,Access to the website URL,Verify that not filling the optional fields and clicking the submit button will still send data to the server without any validation error,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Collection button
+4. If user not entered any details in non mandatory fields, the data will be stores in the server",System should not display error message for non mandatory fields,,
+,,TC_58,Mandatory field - blank spaces,NA,Access to the website URL,Verify that entering blank spaces on mandatory fields leads to the validation error.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Collection button
+4. If user has given blank space in mandatory fields, system prompts an error message",System should display error message for mandatory fields,,
+,,TC_59,Contact info,Email id :  gugan123@gmail.com,Access to the website URL,Check whether contact info accepts aphanumeric characters,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Collection button
+4. Enter the alphanumeric in the contact info",System should accepts the alphanmeric and special characters,,
+,,TC_60,Accepts only characters,Product : Nice product,Access to the website URL,Check whether system accepts only the charcacters in the your view and the name field in the review button,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Collection button
+4. Click on Reviews",System should display the given reviews,,
+,,TC_61,Submit button - enabled,NA,Access to the website URL,"verify on clicking the submit button, it should stores the given information in the admin page",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Collection button
+4. Click on Reviews
+Click on submit button",System should submit the given review to the admin portal,,
+TS_15,Category,TC_62,Category button - enabled,NA,Access to the website URL,"Verify that on clicking the category button, it should be navigate to the respective page",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on category button",System should naviage to the respective category page,,
+TS_16,,TC_63,View all button - category,NA,Access to the website URL,"Verify that on clicking view all button in the respective category, it should display all the available products in the particular category",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on category button
+4. Click on view all button",System should display all the category,,
+,,TC_64,Zoom-in button - enabled,NA,Access to the website URL,Verify that the zoom-in button is able to larger the size of an image,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on category button
+4. click on zoom in button for respective product",System should display the image larger in size,,
+,,TC_65,Add to cart button - enabled,NA,Access to the website URL,Verify that the add to cart button is able to click it and navigates to add to cart page,System navigates to the add to cart page,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on category button
+4. click on add to cart button for respective product",System should display the added product in the add to cart page,,
+,,TC_66,Wishlist button - enabled,NA,Access to the website URL,Verify that the wishlist button is able to click and navigates to wishlist page,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on category button
+4. click on wishlist button for respective product",System should display the added product in the wishlist page,,
+,,TC_67,Review,NA,Access to the website URL,Verify that the user can able to give the review for the paricular product,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on category button
+4. click on review button",System should display the given review,,
+,,TC_68,Ratings,NA,NA,Verify that user Should be able to give the ratings for the particular product,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on category button
+4. click on rating button",,,
+,,TC_69,Mandatory fields,NA,Access to the website URL,Verify that the required/mandatory fields are marked with * against the field.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on category button
+4. Display the mandatory fileds wherever possible",System should display the mandatory fileds with *,,
+,,TC_70,Ability to check mandatory fields is not filled,NA,Access to the website URL,Check that mandatory fields are not filled and clicking the submit button will lead to a validation error.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Category button
+4. If user not entered any details in mandatory fields, error message will display",System should display an validation error message,,
+,,TC_71,Non mandatory fields - blank data,NA,Access to the website URL,Verify that not filling the optional fields and clicking the submit button will still send data to the server without any validation error,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Category button
+4. If user not entered any details in non mandatory fields, the data will be stores in the server",System should not display error message for non mandatory fields,,
+,,TC_72,Mandatory field - blank spaces,NA,Access to the website URL,Verify that entering blank spaces on mandatory fields leads to the validation error.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Category button
+4. If user has given blank space in mandatory fields, system prompts an error message",System should display error message for mandatory fields,,
+,,TC_73,Contact info,Contact : gugan123@gmail.com,Access to the website URL,Check whether contact info accepts aphanumeric characters,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Category button
+4. Enter the alphanumeric in the contact info",System should accepts the alphanmeric and special characters,,
+,,TC_74,Review field,Nice product,Access to the website URL,Check whether system accepts only the charcacters in the your view and the name field in the review button,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Category button
+4. Click on Reviews",System should display the given reviews,,
+,,TC_75,Submit button - enabled,NA,Access to the website URL,"verify on clicking the submit button, it should stores the given information in the admin page",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Category button
+4. Click on Reviews
+Click on submit button",System should submit the given review to the admin portal,,
+TS_17,Cart,TC_76,Cart icon,NA,Access to the website URL,Check whether the cart icon is visible and also check product/price/quantity and subtotal is visible,Not Applicable,"1.Locate the valid URL
+2 . It should navigate go the homepage 
+3. Cart icon is shown in the homepage
+",Cart icon should be shown in the homepage,,
+TS_18,,TC_77,Adding item - cart,NA,Access to the website URL,Check whether the item is added to the cart when we click the cart icon,Not Applicable,"1.Locate the valid URL
+2 .It should navigate go the homepage 
+3. Cart icon is shown in the homepage 
+4. Add the items to the cart",Items should be added to the cart,,
+,,TC_78,Increasing an products - cart,NA,Access to the website URL,Check whether the quantity of the item is increased,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate go the homepage 
+3. Cart icon is shown in the homepage 
+4. Add the items to the cart 
+5. Click the '+' symbol",Quantity of the item should be increased,,
+,,TC_79,Add same item,NA,Access to the website URL,Check whether the quantity of the same item is increased,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate go the homepage 
+3. Cart icon is shown in the homepage 
+4. Add the items to the cart 
+5. Click the '+' symbol",Quantity of the same item should be increased,,
+,,TC_80,Add multiple items,NA,Access to the website URL,Check whether the multiple items of different types is added,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate go the homepage 
+3. Cart icon is shown in the homepage 
+4. Multiple items of different types is added",Multiple items of different types should be added,,
+,,TC_81,Removing some items,NA,Access to the website URL,Check whether the added item can be removed,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate go the homepage 
+3. Cart icon is shown in the homepage 
+4. Add the items to the cart
+5. Remove the items",Added items should be removed,,
+,,TC_82,Product details page,NA,Access to the website URL,Check whether the user is able to redirected to the product details page while clicking on the item in the cart,System should naviagates to the product details page,"1.Locate the valid URL 
+2 . It should navigate go the homepage 
+3. Cart icon is shown in the homepage 
+4. Add the items 
+5. Click the item in the cart 
+6 . It redirected to the product details page",User should be redirected to the product details page while clicking on the item in the cart,,
+TS_19,,TC_83,Valid coupon,Coupon : pwscds,Access to the website URL,Check whether the price of the product is discounted when the valid coupon is applied,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate go the homepage 
+3. Cart icon is shown in the homepage 
+4. Add the items in the cart 
+5 . Apply the valid coupon for the item 
+5 . Discount of the price is done",Price of the product should be discounted when the valid coupon is applied,,
+,,TC_84,Invalid coupon,Coupon : pwscdrs,Access to the website URL,Check whether the price of the product is not discounted when the invalid coupon is applied,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate go the homepage 
+3. Cart icon is shown in the homepage 
+4. Apply the invalid coupon 
+5 . Discount of the price is not done",Price of the product should not be discounted when the invalid coupon is applied,,
+TS_20,Wishlist,TC_85,Wishlist button - enabled,NA,Access to the website URL,Check whether the wishlist button is enabled and it navigates to the wishlist page,System should navigates to the wishlist page,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Click the wishlist button",Wishlist button should be clickable and navigates to the wishlist page,,
+,,TC_86,Stock status,NA,Access to the website URL,"Check whether the product name,unit price and stock status is visible in the wislist page",Not Applicable,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Click the wishlist button",System should display the stock status with the product name and unit price,,
+,,TC_87,Cancel button,NA,Access to the website URL,"To verify on clicking the cancel button, the selected product should gets cancelled in the wishlist page",Not Applicable,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Click the wishlist button
+4. Click on cancel button",System should cancels the product,,
+,,TC_88,Add mulltiple products - wishlist,NA,Access to the website URL,To verify whether multiple products should be able to add in the wishlist,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Click the wishlist button
+",System should accepts multiple products to add in the wishlist,,
+TS_21,,TC_89,Add to cart button - enabled,NA,Access to the website URL,To verify whether the add to cart button is enabled and it should navigate to the add to cart page by adding the product which is in wishlist,System displays the add to cart page,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Click the wishlist button
+4. Click on Add to cart",System should add the product to the add to cart,,
+TS_22,Payment,TC_90,Online payments,NA,Access to the website URL,To verify whether all the online payments like gpay/net banking/debit card/credit card/UPI are accepting,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Click the add to cart
+4. Click checkout
+5. click credit card/debit card/net banking radio button",System should accepts the online payments,,
+,,TC_91,Valid card details,5489 5632 6987,Access to the website URL,To verify whether the valid credit/debit card number accepts by the system,System navigates to the bank server page,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Click the add to cart
+4. Click checkout
+5. click credit card/debit card/net banking radio button
+6. Enter valid card details",System should accepts the card details,,
+,,TC_92,Invalid card details,5489 5632 6978,Access to the website URL,To verify whether the invalid card details should not accepts by the system,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Click the add to cart
+4. Click checkout
+5. click credit card/debit card/net banking radio button
+6. Enter the invalid card details",System should not accepts the card details,,
+TS_23,,TC_93,COD available,NA,Access to the website URL,To verify System accepts cash on delivery option,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Click the add to cart
+4. Click checkout
+5. click credit card/debit card/net banking radio button
+6. Click COD option",System should accepts the COD,,
+TS_24,Checkout,TC_94,Checkout button - enabled,NA,Access to the website URL,To verify the proceed to checkout button is enabled in the add to cart page,System should navigates to the checkout page,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Click the add to cart
+4. Click checkout",System should naviagete to checkout page,,
+TS_25,,TC_95,Login button - enabled,NA,Access to the website URL,To verify click here to login button is enabled for existing users and it should naviagate to the login page,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Click login",System should displays the login page,,
+TS_26,,TC_96,Coupon - enabled,NA,Access to the website URL,To verify coupon button is enabled and able to enter the valid coupon number,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Click on coupon detail",System should accepts the coupon details,,
+,,TC_97,Billing details,,Access to the website URL,To verify billing details should be able to enter by the user,Not Applicable,"1.Locate the valid URL 
+2 . It should navigate to the homepage 
+3. Enter the billing details",System should display the billing details,,
+,,TC_98,Mandatory fields,NA,Access to the website URL,Verify that the required/mandatory fields are marked with * against the field.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on bill checkout button
+4. display the mandatory fileds wherever possible",System should display the mandatory fileds with *,,
+,,TC_99,Mandatory fields - empty,NA,Access to the website URL,Check that mandatory fields are not filled and clicking the submit button will lead to a validation error.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Checkout button
+4. If user not entered any details in mandatory fields, error message will display",System should display an validation error message,,
+,,TC_100,Non mandatory fields - blank data,NA,Access to the website URL,Verify that not filling the optional fields and clicking the submit button will still send data to the server without any validation error,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on checkout button
+4. If user not entered any details in non mandatory fields, the data will be stores in the server",System should not display error message for non mandatory fields,,
+,,TC_101,Mandatory field - blank spaces,NA,Access to the website URL,Verify that entering blank spaces on mandatory fields leads to the validation error.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on checkout button
+4. If user has given blank space in mandatory fields, system prompts an error message",System should display error message for mandatory fields,,
+,,TC_102,Contact info,gugan123@gmail.com,Access to the website URL,Check whether contact info accepts aphanumeric characters,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on checkout button
+4. Enter the alphanumeric in the contact info",System should accepts the alphanmeric and special characters,,
+,,TC_103,Order button - enabled,NA,Access to the website URL,Check whether place order button is enabled and navigates to the respective page,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on checkout button
+4. click place order button",System should be able to click the place order button,,
+TS_27,Notification,TC_104,Notification,NA,Access to the website URL,"To verify on clicking place order, user should get a notification to the registered email id or phone number",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on checkout button
+4. click place order button
+",System should send a email to registered mail id,,
+,Order tracking,TC_105,Order tracking button - enable,NA,Access to the website URL,To verify order tracking button is enabled and navigates to the respective page,System navigates to the track order page,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on order tracking
+
+",,,
+TS_28,,TC_106,Tracking orders,15632,Access to the website URL,Check the search functionalities with Tracking No/ID.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on order tracking
+
+",System should display the tracking id,,
+,,TC_107,Checking time,NA,Access to the website URL,Check the receiving time and delivery time.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on order tracking
+
+",System should display the receiving time and delivering time,,
+,,TC_108,Customer information,NA,Access to the website URL,Check the updated Customer information with their contact information and address.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on order tracking
+
+",System should display the updated customer information,,
+,,TC_109,Distance,NA,Access to the website URL,Calculate the distance by entering the pin code of the location.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on order tracking
+
+",System should display the distance,,
+,,TC_110,Delivery charges,NA,Access to the website URL,Check the delivery charges for the various location like Domestic/International.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on order tracking
+
+",System should display the delivery charges,,
+,,TC_111,Report,NA,Access to the website URL,"Check the complete report with the details includes Tracking Id, Product Information and delivered to and Delivery by.",Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on order tracking
+
+",System should display the complete report,,
+,,TC_112,Updating information,NA,Access to the website URL,Update the every information at each check point and that can check by the other user as well.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on order tracking
+
+",System should display the updated information in each check point,,
+,,TC_113,Exporting information,NA,Access to the website URL,Export the information in PDF or Other Format.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on order tracking
+
+",System should be able to export the information in pdf or other format,,
+TS_29,Contact us,TC_114,Contact us - mandatory fields,NA,Access to the website URL,Verify that the required/mandatory fields are marked with * against the field.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on contact us button
+4. Display the mandatory fileds wherever possible",System should display the mandatory fileds with *,,
+,,TC_115,Contact us - empty mandatory fields,NA,Access to the website URL,Check that mandatory fields are not filled and clicking the submit button will lead to a validation error.,System navigates to the next page and displays error message,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Contact us button
+4. If user not entered any details in mandatory fields, error message will display",System should display an validation error message,,
+,,TC_116,Contact us - non mandatory fields,NA,Access to the website URL,Verify that not filling the optional fields and clicking the submit button will still send data to the server without any validation error,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Contact us button
+4. If user not entered any details in non mandatory fields, the data will be stores in the server",System should not display error message for non mandatory fields,,
+,,TC_117,Contact us - blank spaces in mandatory field,NA,Access to the website URL,Verify that entering blank spaces on mandatory fields leads to the validation error.,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Contact us button
+4. If user has given blank space in mandatory fields, system prompts an error message",System should display error message for mandatory fields,,
+,,TC_118,Contact information,gugan123@gmail.com,Access to the website URL,Check whether contact info accepts aphanumeric characters,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage 
+3.Click on Contact us button
+4. Enter the alphanumeric in the contact info",System should accepts the alphanmeric and special characters,,
+,,TC_119,Submit button,NA,Access to the website URL,Check whether submit button is enabled and stores the data in the admin portal,Not Applicable,"1.Locate the valid URL. 
+2. It navigates to the homepage
+3. Click contact us page
+4. Click submit button 
+",System should submit the data and not displays any error message,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
